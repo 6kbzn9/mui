@@ -65,7 +65,7 @@ const InputButtons = () => {
         </FormGroup>
 
         <FormGroup>
-          <FormControlLabel control={<Checkbox {...label} />} label="nornal" />
+          <FormControlLabel control={<Checkbox {...label} />} label="normal" />
           <FormControlLabel
             control={<Checkbox {...label} disabled />}
             label="disabled"
