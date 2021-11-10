@@ -6,7 +6,7 @@ import InputButtons from "./components/InputButtons";
 
 const App = () => (
   <Container>
-    {/* <Buttons /> */}
+    <Buttons />
     <InputButtons />
   </Container>
 );
