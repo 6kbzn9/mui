@@ -1,8 +1,8 @@
 import React from "react";
-// import "/src/index.css";
+import "/src/index.css";
 import CardImage from "./components/CardImage";
 import { ThemeProvider } from "@mui/material";
-import customTheme from "./assets/theme";
+import theme from "./assets/theme";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -12,7 +12,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 
 const App = () => (
-  <ThemeProvider theme={customTheme}>
+  <ThemeProvider theme={theme}>
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" color="primary">
         <Toolbar>

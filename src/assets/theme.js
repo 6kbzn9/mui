@@ -7,10 +7,22 @@ const theme = createTheme({
       main: purple[600],
     },
     secondary: {
-      main: orange[500],
+      main: orange[700],
     },
     error: {
       main: red[900],
+    },
+  },
+
+  components: {
+    MuiFab: {
+      styleOverrides: {
+        secondary: {
+          "&:hover": {
+            color: "#fff",
+          },
+        },
+      },
     },
   },
 });
